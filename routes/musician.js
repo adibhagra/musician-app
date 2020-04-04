@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/health', (req, res) => {
-      res.status('200').send("200 - OK!");
+      res.status('200').send("200 - Well done!");
   
 });
 
